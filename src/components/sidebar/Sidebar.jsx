@@ -4,25 +4,25 @@ import './sidebar.scss';
 
 const sidebarNavItems = [
     {
-        display: 'Dashboard',
+        display: 'Home',
         icon: <i className='bx bx-home'></i>,
         to: '/',
         section: ''
     },
     {
-        display: 'Getting Started',
+        display: 'About Me',
         icon: <i className='bx bx-star'></i>,
         to: '/started',
         section: 'started'
     },
     {
-        display: 'Calendar',
+        display: 'Projects',
         icon: <i className='bx bx-calendar'></i>,
         to: '/calendar',
         section: 'calendar'
     },
     {
-        display: 'User',
+        display: 'Contact',
         icon: <i className='bx bx-user'></i>,
         to: '/user',
         section: 'user'
@@ -59,7 +59,7 @@ const Sidebar = () => {
 
     return <div className='sidebar'>
         <div className="sidebar__logo">
-            Animate
+            Kiran Shrestha
         </div>
         <div ref={sidebarRef} className="sidebar__menu">
             <div
